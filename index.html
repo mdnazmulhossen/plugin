@@ -1,0 +1,143 @@
+ <!doctype html>
+
+<html lang="en">
+    <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--CSS Links -->
+    <link rel="stylesheet" href="css/tiltedpage-scroll.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+   
+    <title>bootstrap4</title>
+
+
+    </head>
+    <body>
+      <!-- counterup -->
+      <div class="container">
+        <p class="text-center">counter plugin</p>
+        <div class="row">
+
+         
+          <div class="col-md-4">
+            <span class="counter text-center">1,234,5672514554444</span>
+            
+          </div>
+           <div class="col-md-4">
+            <span class="counter text-center">1,234,567251455444</span>
+            
+          </div>
+           <div class="col-md-4">
+            <span class="counter text-center">1,234,567251455444</span>
+            
+          </div>
+
+        </div>
+      </div>
+      <!-- wowjs -->
+      <div class="container1">  
+      <div class="wow slideInLeft  text-center">
+                  <p>wow plugin</p>
+                  <img src="images/MOSQUE.jpeg" alt="MOSQUE">
+                  <P>COME INSIDE THE MOSQUE AND RECHARGE YOUR SOUL </P>
+                  </div>
+        </div>
+        <!-- owlcarasoul -->
+        <div class="container2">
+               <p class="text-center">owl carousel</p>
+          <div class="row">
+            
+            <div class="col-md-12">
+              <div class="owl-carousel text-center ">
+                
+              <div class="class1">  <img src="images/demo1.jpg"alt=""> </div>
+              <div class="class1"> <img src="images/demo2.jpg"alt=""> </div>
+              <div class="class1"> <img src="images/demo3.jpg"alt=""></div>
+             <div  class="class1"> <img src="images/demo4.jpg"alt=""> </div>
+              <div class="class1"> <img src="images/demo1.jpg"alt=""> </div>
+              <div class="class1"> <img src="images/demo2.jpg"alt=""> </div>
+             
+             
+              </div>
+
+            </div>
+            
+          </div>
+
+           </div>
+           <!-- titledpage -->
+          <div class="container3">
+          <p class="text-center">tilted page</p> 
+          <div class="main ">
+            <section class="page1">
+              <img src="images/demo1.jpg"alt="">
+            </section>
+
+            <section class="page2">
+               <img src="images/demo2.jpg"alt="">
+            </section>
+
+             
+            <section class="last-page">
+               <img src="images/demo3.jpg"alt="">
+            </section>
+
+          </div>
+                     
+         </div>
+
+   <!-- jQuery links-->
+   
+   
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.tiltedpage-scroll.min.js"></script>
+   
+   
+
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    
+   
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+
+      <script>
+        $(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+             new WOW().init();
+
+             $(".owl-carousel").owlCarousel(
+              );
+
+
+
+$(".main").tiltedpage_scroll({
+    sectionContainer: "> section",     // In case you don't want to use <section> tag, you can define your won CSS selector here
+    angle: 50,                         // You can define the angle of the tilted section here. Change this to false if you want to disable the tilted effect. The default value is 50 degrees.
+    opacity: true,                     // You can toggle the opacity effect with this option. The default value is true
+    scale: true,                       // You can toggle the scaling effect here as well. The default value is true.
+    outAnimation: true                 // In case you do not want the out animation, you can toggle this to false. The defaul value is true.
+  });
+
+            
+   
+         });
+    </script>
+  
+</body>
+</html>

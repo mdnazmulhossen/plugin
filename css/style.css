@@ -1,0 +1,23 @@
+body{background-color: #17a2b8;
+
+}
+.container{
+	padding:20px 25px;
+}
+.container1{background-color:#14d2e5;
+	padding: 15px 15px;
+}
+.class1{background-color:lightgrey;
+	width:300px;
+	height: 200px;
+	padding: 20px;
+}
+.container3{
+	background-color:#14a2f5;
+
+}
+.main{
+	padding-left: 20%;
+	margin-bottom:0;
+	
+}
